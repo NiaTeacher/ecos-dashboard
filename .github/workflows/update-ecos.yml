@@ -1,0 +1,47 @@
+name: Update ECOS Data
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # UTC 09:00 = 한국시간 18:00
+    # 월요일부터 금요일까지 실행
+    - cron: "0 9 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 저장소 불러오기
+        uses: actions/checkout@v4
+
+      - name: Python 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: requests 설치
+        run: pip install requests
+
+      - name: ECOS 데이터 수집
+        env:
+          ECOS_API_KEY: ${{ secrets.ECOS_API_KEY }}
+        run: python fetch_ecos.py
+
+      - name: 변경된 JSON 저장
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add ecos_data.json
+
+          if git diff --cached --quiet; then
+            echo "변경된 데이터가 없습니다."
+          else
+            git commit -m "Update ECOS data"
+            git push
+          fi
