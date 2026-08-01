@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T19:32:09+09:00",
+  "updated_at": "2026-08-01T19:38:43+09:00",
   "timezone": "Asia/Seoul",
   "source": "한국은행 ECOS",
   "indicators": [
@@ -20,14 +20,14 @@
     {
       "category": "환율",
       "name": "원/달러 환율",
-      "current_value": 902.13,
-      "previous_value": 887.92,
-      "change": 14.210000000000036,
-      "change_rate": 0.016003694026488914,
+      "current_value": 1441.1,
+      "previous_value": 1450.1,
+      "change": -9.0,
+      "change_rate": -0.006206468519412455,
       "date": "20260731",
       "unit": "원",
       "stat_code": "731Y001",
-      "item_code": "0000002",
+      "item_code": "0000001",
       "status": "success",
       "error": ""
     },
