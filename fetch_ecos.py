@@ -29,7 +29,7 @@ INDICATORS = [
         "name": "원/달러 환율",
         "stat_code": "731Y001",
         "cycle": "D",
-        "item_code": "0000002",
+        "item_code": "0000001",
         "default_unit": "원",
     },
     {
