@@ -15,6 +15,9 @@ if not API_KEY:
     raise RuntimeError("ECOS_API_KEY가 설정되지 않았습니다.")
 
 
+KST = timezone(timedelta(hours=9))
+
+
 INDICATORS = [
     {
         "category": "금리",
@@ -51,9 +54,6 @@ INDICATORS = [
 ]
 
 
-KST = timezone(timedelta(hours=9))
-
-
 def make_ecos_url(
     stat_code: str,
     cycle: str,
@@ -81,8 +81,8 @@ def make_ecos_url(
 def fetch_indicator(indicator: dict[str, str]) -> dict[str, Any]:
     today = datetime.now(KST).date()
 
-    # 주말·공휴일을 고려해 최근 90일을 조회합니다.
-    start_date = (today - timedelta(days=90)).strftime("%Y%m%d")
+    # 최근 1년
+    start_date = (today - timedelta(days=365)).strftime("%Y%m%d")
     end_date = today.strftime("%Y%m%d")
 
     url = make_ecos_url(
@@ -121,7 +121,7 @@ def fetch_indicator(indicator: dict[str, str]) -> dict[str, Any]:
 
     rows = data.get("StatisticSearch", {}).get("row", [])
 
-    observations: list[dict[str, Any]] = []
+    history: list[dict[str, Any]] = []
 
     for row in rows:
         raw_value = row.get("DATA_VALUE")
@@ -131,29 +131,21 @@ def fetch_indicator(indicator: dict[str, str]) -> dict[str, Any]:
         except (TypeError, ValueError):
             continue
 
-        observations.append(
+        history.append(
             {
                 "date": str(row.get("TIME", "")),
                 "value": value,
-                "unit": row.get("UNIT_NAME")
-                or indicator["default_unit"],
             }
         )
 
-    observations.sort(
-        key=lambda item: item["date"],
-        reverse=True,
-    )
-
-    if not observations:
+    if not history:
         raise RuntimeError("유효한 숫자 데이터가 없습니다.")
 
-    current = observations[0]
-    previous = (
-        observations[1]
-        if len(observations) >= 2
-        else None
-    )
+    # 날짜 오름차순
+    history.sort(key=lambda item: item["date"])
+
+    current = history[-1]
+    previous = history[-2] if len(history) >= 2 else None
 
     previous_value = (
         previous["value"]
@@ -181,11 +173,12 @@ def fetch_indicator(indicator: dict[str, str]) -> dict[str, Any]:
         "change": change,
         "change_rate": change_rate,
         "date": current["date"],
-        "unit": current["unit"],
+        "unit": indicator["default_unit"],
         "stat_code": indicator["stat_code"],
         "item_code": indicator["item_code"],
         "status": "success",
         "error": "",
+        "history": history,
     }
 
 
@@ -199,7 +192,8 @@ def main() -> None:
 
             print(
                 f'[성공] {indicator["name"]}: '
-                f'{result["current_value"]}'
+                f'{result["current_value"]} '
+                f'({len(result["history"])}건)'
             )
 
         except Exception as exc:
@@ -222,6 +216,7 @@ def main() -> None:
                     "item_code": indicator["item_code"],
                     "status": "error",
                     "error": str(exc),
+                    "history": [],
                 }
             )
 
