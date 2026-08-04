@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T21:22:36+09:00",
+  "updated_at": "2026-08-04T20:23:04+09:00",
   "timezone": "Asia/Seoul",
   "source": "한국은행 ECOS",
   "indicators": [
@@ -17,10 +17,6 @@
       "status": "success",
       "error": "",
       "history": [
-        {
-          "date": "20250803",
-          "value": 2.5
-        },
         {
           "date": "20250804",
           "value": 2.5
@@ -1486,11 +1482,11 @@
     {
       "category": "환율",
       "name": "원/달러 환율",
-      "current_value": 1433.6,
-      "previous_value": 1441.1,
-      "change": -7.5,
-      "change_rate": -0.005204357782249671,
-      "date": "20260803",
+      "current_value": 1429.9,
+      "previous_value": 1433.6,
+      "change": -3.699999999999818,
+      "change_rate": -0.002580915178571302,
+      "date": "20260804",
       "unit": "원",
       "stat_code": "731Y001",
       "item_code": "0000001",
@@ -2472,17 +2468,21 @@
         {
           "date": "20260803",
           "value": 1433.6
+        },
+        {
+          "date": "20260804",
+          "value": 1429.9
         }
       ]
     },
     {
       "category": "채권",
       "name": "국고채 3년",
-      "current_value": 3.742,
-      "previous_value": 3.758,
-      "change": -0.016000000000000014,
-      "change_rate": -0.004257583821181484,
-      "date": "20260803",
+      "current_value": 3.74,
+      "previous_value": 3.742,
+      "change": -0.0019999999999997797,
+      "change_rate": -0.0005344735435595349,
+      "date": "20260804",
       "unit": "%",
       "stat_code": "817Y002",
       "item_code": "010200000",
@@ -3464,17 +3464,21 @@
         {
           "date": "20260803",
           "value": 3.742
+        },
+        {
+          "date": "20260804",
+          "value": 3.74
         }
       ]
     },
     {
       "category": "채권",
       "name": "국고채 10년",
-      "current_value": 4.264,
-      "previous_value": 4.261,
-      "change": 0.0030000000000001137,
-      "change_rate": 0.0007040600797935024,
-      "date": "20260803",
+      "current_value": 4.26,
+      "previous_value": 4.264,
+      "change": -0.004000000000000448,
+      "change_rate": -0.0009380863039400674,
+      "date": "20260804",
       "unit": "%",
       "stat_code": "817Y002",
       "item_code": "010210000",
@@ -4456,6 +4460,10 @@
         {
           "date": "20260803",
           "value": 4.264
+        },
+        {
+          "date": "20260804",
+          "value": 4.26
         }
       ]
     }
