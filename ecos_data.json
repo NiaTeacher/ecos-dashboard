@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T19:18:03+09:00",
+  "updated_at": "2026-08-11T19:01:57+09:00",
   "timezone": "Asia/Seoul",
   "source": "한국은행 ECOS",
   "indicators": [
@@ -15,7 +15,7 @@
       "stat_code": "722Y001",
       "item_code": "0101000",
       "status": "error",
-      "error": "HTTPSConnectionPool(host='ecos.bok.or.kr', port=443): Max retries exceeded with url: /api/StatisticSearch/W4Q65DYY69OTIBNGV9BV/json/kr/1/1000/722Y001/D/20250810/20260810/0101000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ecos.bok.or.kr', port=443) at 0x7f5290278560>, 'Connection to ecos.bok.or.kr timed out. (connect timeout=30)'))",
+      "error": "HTTPSConnectionPool(host='ecos.bok.or.kr', port=443): Max retries exceeded with url: /api/StatisticSearch/W4Q65DYY69OTIBNGV9BV/json/kr/1/1000/722Y001/D/20250811/20260811/0101000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ecos.bok.or.kr', port=443) at 0x7f654eb104d0>, 'Connection to ecos.bok.or.kr timed out. (connect timeout=30)'))",
       "history": []
     },
     {
@@ -30,7 +30,7 @@
       "stat_code": "731Y001",
       "item_code": "0000001",
       "status": "error",
-      "error": "HTTPSConnectionPool(host='ecos.bok.or.kr', port=443): Max retries exceeded with url: /api/StatisticSearch/W4Q65DYY69OTIBNGV9BV/json/kr/1/1000/731Y001/D/20250810/20260810/0000001 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ecos.bok.or.kr', port=443) at 0x7f528ff24320>, 'Connection to ecos.bok.or.kr timed out. (connect timeout=30)'))",
+      "error": "HTTPSConnectionPool(host='ecos.bok.or.kr', port=443): Max retries exceeded with url: /api/StatisticSearch/W4Q65DYY69OTIBNGV9BV/json/kr/1/1000/731Y001/D/20250811/20260811/0000001 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ecos.bok.or.kr', port=443) at 0x7f654e78c110>, 'Connection to ecos.bok.or.kr timed out. (connect timeout=30)'))",
       "history": []
     },
     {
@@ -45,7 +45,7 @@
       "stat_code": "817Y002",
       "item_code": "010200000",
       "status": "error",
-      "error": "HTTPSConnectionPool(host='ecos.bok.or.kr', port=443): Max retries exceeded with url: /api/StatisticSearch/W4Q65DYY69OTIBNGV9BV/json/kr/1/1000/817Y002/D/20250810/20260810/010200000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ecos.bok.or.kr', port=443) at 0x7f528ff247a0>, 'Connection to ecos.bok.or.kr timed out. (connect timeout=30)'))",
+      "error": "HTTPSConnectionPool(host='ecos.bok.or.kr', port=443): Max retries exceeded with url: /api/StatisticSearch/W4Q65DYY69OTIBNGV9BV/json/kr/1/1000/817Y002/D/20250811/20260811/010200000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ecos.bok.or.kr', port=443) at 0x7f654e78c620>, 'Connection to ecos.bok.or.kr timed out. (connect timeout=30)'))",
       "history": []
     },
     {
@@ -60,7 +60,7 @@
       "stat_code": "817Y002",
       "item_code": "010210000",
       "status": "error",
-      "error": "HTTPSConnectionPool(host='ecos.bok.or.kr', port=443): Max retries exceeded with url: /api/StatisticSearch/W4Q65DYY69OTIBNGV9BV/json/kr/1/1000/817Y002/D/20250810/20260810/010210000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ecos.bok.or.kr', port=443) at 0x7f528feebe30>, 'Connection to ecos.bok.or.kr timed out. (connect timeout=30)'))",
+      "error": "HTTPSConnectionPool(host='ecos.bok.or.kr', port=443): Max retries exceeded with url: /api/StatisticSearch/W4Q65DYY69OTIBNGV9BV/json/kr/1/1000/817Y002/D/20250811/20260811/010210000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='ecos.bok.or.kr', port=443) at 0x7f654eb10710>, 'Connection to ecos.bok.or.kr timed out. (connect timeout=30)'))",
       "history": []
     }
   ]
