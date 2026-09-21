@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T22:24:53+09:00",
+  "updated_at": "2026-09-22T00:41:19+09:00",
   "timezone": "Asia/Seoul",
   "source": "한국은행 ECOS",
   "indicators": [
@@ -10,29 +10,13 @@
       "previous_value": 3.0,
       "change": 0.0,
       "change_rate": 0.0,
-      "date": "20260916",
+      "date": "20260919",
       "unit": "%",
       "stat_code": "722Y001",
       "item_code": "0101000",
       "status": "success",
       "error": "",
       "history": [
-        {
-          "date": "20250918",
-          "value": 2.5
-        },
-        {
-          "date": "20250919",
-          "value": 2.5
-        },
-        {
-          "date": "20250920",
-          "value": 2.5
-        },
-        {
-          "date": "20250921",
-          "value": 2.5
-        },
         {
           "date": "20250922",
           "value": 2.5
@@ -1472,31 +1456,35 @@
         {
           "date": "20260916",
           "value": 3.0
+        },
+        {
+          "date": "20260917",
+          "value": 3.0
+        },
+        {
+          "date": "20260918",
+          "value": 3.0
+        },
+        {
+          "date": "20260919",
+          "value": 3.0
         }
       ]
     },
     {
       "category": "환율",
       "name": "원/달러 환율",
-      "current_value": 1380.3,
-      "previous_value": 1368.3,
-      "change": 12.0,
-      "change_rate": 0.008770006577504933,
-      "date": "20260918",
+      "current_value": 1383.8,
+      "previous_value": 1380.3,
+      "change": 3.5,
+      "change_rate": 0.002535680649134246,
+      "date": "20260921",
       "unit": "원",
       "stat_code": "731Y001",
       "item_code": "0000001",
       "status": "success",
       "error": "",
       "history": [
-        {
-          "date": "20250918",
-          "value": 1380.0
-        },
-        {
-          "date": "20250919",
-          "value": 1384.6
-        },
         {
           "date": "20250922",
           "value": 1393.6
@@ -2468,31 +2456,27 @@
         {
           "date": "20260918",
           "value": 1380.3
+        },
+        {
+          "date": "20260921",
+          "value": 1383.8
         }
       ]
     },
     {
       "category": "채권",
       "name": "국고채 3년",
-      "current_value": 4.035,
-      "previous_value": 4.063,
-      "change": -0.02799999999999958,
-      "change_rate": -0.006891459512675261,
-      "date": "20260918",
+      "current_value": 4.056,
+      "previous_value": 4.035,
+      "change": 0.020999999999999908,
+      "change_rate": 0.005204460966542728,
+      "date": "20260921",
       "unit": "%",
       "stat_code": "817Y002",
       "item_code": "010200000",
       "status": "success",
       "error": "",
       "history": [
-        {
-          "date": "20250918",
-          "value": 2.403
-        },
-        {
-          "date": "20250919",
-          "value": 2.441
-        },
         {
           "date": "20250922",
           "value": 2.459
@@ -3464,31 +3448,27 @@
         {
           "date": "20260918",
           "value": 4.035
+        },
+        {
+          "date": "20260921",
+          "value": 4.056
         }
       ]
     },
     {
       "category": "채권",
       "name": "국고채 10년",
-      "current_value": 4.466,
-      "previous_value": 4.506,
-      "change": -0.040000000000000036,
-      "change_rate": -0.008877052818464277,
-      "date": "20260918",
+      "current_value": 4.457,
+      "previous_value": 4.466,
+      "change": -0.009000000000000341,
+      "change_rate": -0.002015226153157264,
+      "date": "20260921",
       "unit": "%",
       "stat_code": "817Y002",
       "item_code": "010210000",
       "status": "success",
       "error": "",
       "history": [
-        {
-          "date": "20250918",
-          "value": 2.756
-        },
-        {
-          "date": "20250919",
-          "value": 2.815
-        },
         {
           "date": "20250922",
           "value": 2.833
@@ -4460,6 +4440,10 @@
         {
           "date": "20260918",
           "value": 4.466
+        },
+        {
+          "date": "20260921",
+          "value": 4.457
         }
       ]
     }
