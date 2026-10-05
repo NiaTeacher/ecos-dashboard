@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T00:25:06+09:00",
+  "updated_at": "2026-10-06T02:57:12+09:00",
   "timezone": "Asia/Seoul",
   "source": "한국은행 ECOS",
   "indicators": [
@@ -10,25 +10,13 @@
       "previous_value": 3.0,
       "change": 0.0,
       "change_rate": 0.0,
-      "date": "20261001",
+      "date": "20261003",
       "unit": "%",
       "stat_code": "722Y001",
       "item_code": "0101000",
       "status": "success",
       "error": "",
       "history": [
-        {
-          "date": "20251003",
-          "value": 2.5
-        },
-        {
-          "date": "20251004",
-          "value": 2.5
-        },
-        {
-          "date": "20251005",
-          "value": 2.5
-        },
         {
           "date": "20251006",
           "value": 2.5
@@ -1471,6 +1459,14 @@
         },
         {
           "date": "20261001",
+          "value": 3.0
+        },
+        {
+          "date": "20261002",
+          "value": 3.0
+        },
+        {
+          "date": "20261003",
           "value": 3.0
         }
       ]
