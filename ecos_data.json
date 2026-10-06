@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T02:57:12+09:00",
+  "updated_at": "2026-10-07T00:42:36+09:00",
   "timezone": "Asia/Seoul",
   "source": "한국은행 ECOS",
   "indicators": [
@@ -10,17 +10,13 @@
       "previous_value": 3.0,
       "change": 0.0,
       "change_rate": 0.0,
-      "date": "20261003",
+      "date": "20261004",
       "unit": "%",
       "stat_code": "722Y001",
       "item_code": "0101000",
       "status": "success",
       "error": "",
       "history": [
-        {
-          "date": "20251006",
-          "value": 2.5
-        },
         {
           "date": "20251007",
           "value": 2.5
@@ -1468,17 +1464,21 @@
         {
           "date": "20261003",
           "value": 3.0
+        },
+        {
+          "date": "20261004",
+          "value": 3.0
         }
       ]
     },
     {
       "category": "환율",
       "name": "원/달러 환율",
-      "current_value": 1359.6,
-      "previous_value": 1355.7,
-      "change": 3.8999999999998636,
-      "change_rate": 0.0028767426421773723,
-      "date": "20261002",
+      "current_value": 1358.5,
+      "previous_value": 1359.6,
+      "change": -1.099999999999909,
+      "change_rate": -0.0008090614886730723,
+      "date": "20261006",
       "unit": "원",
       "stat_code": "731Y001",
       "item_code": "0000001",
@@ -2452,17 +2452,21 @@
         {
           "date": "20261002",
           "value": 1359.6
+        },
+        {
+          "date": "20261006",
+          "value": 1358.5
         }
       ]
     },
     {
       "category": "채권",
       "name": "국고채 3년",
-      "current_value": 3.937,
-      "previous_value": 4.01,
-      "change": -0.07299999999999995,
-      "change_rate": -0.01820448877805485,
-      "date": "20261002",
+      "current_value": 3.933,
+      "previous_value": 3.937,
+      "change": -0.0040000000000000036,
+      "change_rate": -0.001016002032004065,
+      "date": "20261006",
       "unit": "%",
       "stat_code": "817Y002",
       "item_code": "010200000",
@@ -3436,17 +3440,21 @@
         {
           "date": "20261002",
           "value": 3.937
+        },
+        {
+          "date": "20261006",
+          "value": 3.933
         }
       ]
     },
     {
       "category": "채권",
       "name": "국고채 10년",
-      "current_value": 4.365,
-      "previous_value": 4.436,
-      "change": -0.07099999999999973,
-      "change_rate": -0.01600541027953105,
-      "date": "20261002",
+      "current_value": 4.369,
+      "previous_value": 4.365,
+      "change": 0.0039999999999995595,
+      "change_rate": 0.0009163802978234959,
+      "date": "20261006",
       "unit": "%",
       "stat_code": "817Y002",
       "item_code": "010210000",
@@ -4420,6 +4428,10 @@
         {
           "date": "20261002",
           "value": 4.365
+        },
+        {
+          "date": "20261006",
+          "value": 4.369
         }
       ]
     }
