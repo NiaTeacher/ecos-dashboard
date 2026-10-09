@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T01:08:59+09:00",
+  "updated_at": "2026-10-10T00:50:34+09:00",
   "timezone": "Asia/Seoul",
   "source": "한국은행 ECOS",
   "indicators": [
@@ -17,10 +17,6 @@
       "status": "success",
       "error": "",
       "history": [
-        {
-          "date": "20251009",
-          "value": 2.5
-        },
         {
           "date": "20251010",
           "value": 2.5
