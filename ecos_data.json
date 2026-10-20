@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T01:13:47+09:00",
+  "updated_at": "2026-10-20T23:07:51+09:00",
   "timezone": "Asia/Seoul",
   "source": "한국은행 ECOS",
   "indicators": [
@@ -1482,11 +1482,11 @@
     {
       "category": "환율",
       "name": "원/달러 환율",
-      "current_value": 1342.4,
-      "previous_value": 1348.5,
-      "change": -6.099999999999909,
-      "change_rate": -0.004523544679273199,
-      "date": "20261019",
+      "current_value": 1332.1,
+      "previous_value": 1342.4,
+      "change": -10.300000000000182,
+      "change_rate": -0.00767282479141849,
+      "date": "20261020",
       "unit": "원",
       "stat_code": "731Y001",
       "item_code": "0000001",
@@ -2472,17 +2472,21 @@
         {
           "date": "20261019",
           "value": 1342.4
+        },
+        {
+          "date": "20261020",
+          "value": 1332.1
         }
       ]
     },
     {
       "category": "채권",
       "name": "국고채 3년",
-      "current_value": 3.877,
-      "previous_value": 3.854,
-      "change": 0.022999999999999687,
-      "change_rate": 0.005967825635703084,
-      "date": "20261019",
+      "current_value": 3.84,
+      "previous_value": 3.877,
+      "change": -0.03699999999999992,
+      "change_rate": -0.009543461439257137,
+      "date": "20261020",
       "unit": "%",
       "stat_code": "817Y002",
       "item_code": "010200000",
@@ -3468,17 +3472,21 @@
         {
           "date": "20261019",
           "value": 3.877
+        },
+        {
+          "date": "20261020",
+          "value": 3.84
         }
       ]
     },
     {
       "category": "채권",
       "name": "국고채 10년",
-      "current_value": 4.205,
-      "previous_value": 4.182,
-      "change": 0.022999999999999687,
-      "change_rate": 0.005499760879961665,
-      "date": "20261019",
+      "current_value": 4.176,
+      "previous_value": 4.205,
+      "change": -0.028999999999999915,
+      "change_rate": -0.006896551724137911,
+      "date": "20261020",
       "unit": "%",
       "stat_code": "817Y002",
       "item_code": "010210000",
@@ -4464,6 +4472,10 @@
         {
           "date": "20261019",
           "value": 4.205
+        },
+        {
+          "date": "20261020",
+          "value": 4.176
         }
       ]
     }
