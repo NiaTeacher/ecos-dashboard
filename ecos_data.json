@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T23:04:54+09:00",
+  "updated_at": "2026-10-27T00:52:47+09:00",
   "timezone": "Asia/Seoul",
   "source": "한국은행 ECOS",
   "indicators": [
@@ -10,29 +10,13 @@
       "previous_value": 3.0,
       "change": 0.0,
       "change_rate": 0.0,
-      "date": "20261022",
+      "date": "20261024",
       "unit": "%",
       "stat_code": "722Y001",
       "item_code": "0101000",
       "status": "success",
       "error": "",
       "history": [
-        {
-          "date": "20251023",
-          "value": 2.5
-        },
-        {
-          "date": "20251024",
-          "value": 2.5
-        },
-        {
-          "date": "20251025",
-          "value": 2.5
-        },
-        {
-          "date": "20251026",
-          "value": 2.5
-        },
         {
           "date": "20251027",
           "value": 2.5
@@ -1476,31 +1460,31 @@
         {
           "date": "20261022",
           "value": 3.0
+        },
+        {
+          "date": "20261023",
+          "value": 3.0
+        },
+        {
+          "date": "20261024",
+          "value": 3.0
         }
       ]
     },
     {
       "category": "환율",
       "name": "원/달러 환율",
-      "current_value": 1324.6,
-      "previous_value": 1325.5,
-      "change": -0.900000000000091,
-      "change_rate": -0.000678989060731868,
-      "date": "20261023",
+      "current_value": 1324.3,
+      "previous_value": 1324.6,
+      "change": -0.2999999999999545,
+      "change_rate": -0.0002264834667068961,
+      "date": "20261026",
       "unit": "원",
       "stat_code": "731Y001",
       "item_code": "0000001",
       "status": "success",
       "error": "",
       "history": [
-        {
-          "date": "20251023",
-          "value": 1430.1
-        },
-        {
-          "date": "20251024",
-          "value": 1436.6
-        },
         {
           "date": "20251027",
           "value": 1436.1
@@ -2476,31 +2460,27 @@
         {
           "date": "20261023",
           "value": 1324.6
+        },
+        {
+          "date": "20261026",
+          "value": 1324.3
         }
       ]
     },
     {
       "category": "채권",
       "name": "국고채 3년",
-      "current_value": 3.803,
-      "previous_value": 3.84,
-      "change": -0.03699999999999992,
-      "change_rate": -0.009635416666666646,
-      "date": "20261023",
+      "current_value": 3.789,
+      "previous_value": 3.803,
+      "change": -0.01399999999999979,
+      "change_rate": -0.0036813042334998135,
+      "date": "20261026",
       "unit": "%",
       "stat_code": "817Y002",
       "item_code": "010200000",
       "status": "success",
       "error": "",
       "history": [
-        {
-          "date": "20251023",
-          "value": 2.605
-        },
-        {
-          "date": "20251024",
-          "value": 2.591
-        },
         {
           "date": "20251027",
           "value": 2.62
@@ -3476,31 +3456,27 @@
         {
           "date": "20261023",
           "value": 3.803
+        },
+        {
+          "date": "20261026",
+          "value": 3.789
         }
       ]
     },
     {
       "category": "채권",
       "name": "국고채 10년",
-      "current_value": 4.097,
-      "previous_value": 4.152,
-      "change": -0.054999999999999716,
-      "change_rate": -0.013246628131021126,
-      "date": "20261023",
+      "current_value": 4.074,
+      "previous_value": 4.097,
+      "change": -0.023000000000000576,
+      "change_rate": -0.0056138638027826634,
+      "date": "20261026",
       "unit": "%",
       "stat_code": "817Y002",
       "item_code": "010210000",
       "status": "success",
       "error": "",
       "history": [
-        {
-          "date": "20251023",
-          "value": 2.912
-        },
-        {
-          "date": "20251024",
-          "value": 2.913
-        },
         {
           "date": "20251027",
           "value": 2.959
@@ -4476,6 +4452,10 @@
         {
           "date": "20261023",
           "value": 4.097
+        },
+        {
+          "date": "20261026",
+          "value": 4.074
         }
       ]
     }
